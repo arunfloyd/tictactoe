@@ -1,0 +1,94 @@
+body {
+  text-align: center; /* Center align all inline and inline-block elements */
+}
+
+.container {
+  display: inline-block; /* Display as an inline block */
+  text-align: left; /* Reset text alignment to left */
+}
+
+
+.title {
+  margin-top: 50px;
+  color: rgb(14, 193, 206);
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reset {
+  width: 200px;
+  height: 90px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: #1f3540;
+  font-size: 26px;
+  color: #26ffcb;
+  margin-top: 35px;
+  margin-bottom: 50px;
+}
+.human {
+  width: 250px;
+  height: 60px;
+  border: 2px solid #1f3540;
+  outline: none;
+  cursor: pointer;
+  border-radius: 30px;
+  background-color: #f0f0f0;
+  font-size: 20px;
+  color: #1f3540;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.human:hover {
+  background-color: #1f3540;
+  color: #f0f0f0;
+  border-color: #1f3540;
+}
+
+
+.boxes {
+  display: flex;
+  height: 180px;
+  width: 180px;
+  background-color: #1f3540;
+  border: 12px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.board {
+  height: 600px;
+  width: 564px;
+  display: flex;
+  margin: auto;
+}
+.boxes img {
+  margin: 50px 50px;
+}
+
+.computer {
+  width: 304px;
+  height: 90px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: #1f3540;
+  font-size: 26px;
+  color: #26ffcb;
+  margin-top: 35px;
+  margin-bottom: 50px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+.computer:hover {
+  background-color: #1f3540;
+  color: #f0f0f0;
+  border-color: #1f3540;
+}
+
